@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholio - Nurturing Excellence, Building Futures</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #000000;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #FFFFFF;
+            padding: 20px 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo i {
+            font-size: 32px;
+            color: #1E3A8A;
+        }
+
+        .logo-text h1 {
+            font-size: 28px;
+            color: #1E3A8A;
+            font-weight: 700;
+        }
+
+        .logo-text p {
+            font-size: 12px;
+            color: #666;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #1E3A8A;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+            transition: border-bottom 0.3s;
+            padding-bottom: 5px;
+        }
+
+        .nav-links a:hover {
+            border-bottom: 2px solid #1E3A8A;
+        }
+
+        .header-cta {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .phone-number {
+            color: #1E3A8A;
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .cta-button {
+            background-color: #1E3A8A;
+            color: #FFFFFF;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            opacity: 0.9;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background-color: #1E3A8A;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(30, 58, 138, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('cover.jpg') center/cover;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 60px 40px;
+        }
+
+        .hero-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .hero-text {
+            max-width: 700px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #FFFFFF;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-bottom: 40px;
+            max-width: 700px;
+        }
+
+        .stat-item {
+            text-align: left;
+        }
+
+        .stat-item i {
+            font-size: 32px;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: 700;
+            color: #FFFFFF;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #FFFFFF;
+            opacity: 0.9;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .primary-btn {
+            background-color: #1E3A8A;
+            color: #FFFFFF;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .secondary-btn {
+            background-color: #FFFFFF;
+            color: #1E3A8A;
+            padding: 15px 35px;
+            border: 2px solid #FFFFFF;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .primary-btn:hover,
+        .secondary-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #1E3A8A;
+            color: #FFFFFF;
+            padding: 60px 40px 0;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: rgba(255, 255, 255, 0.85);
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            list-style: none;
+        }
+
+        .contact-info li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .contact-info i {
+            margin-top: 4px;
+            color: #FFFFFF;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFFF;
+            font-size: 18px;
+        }
+
+        .social-links a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 20px 0;
+            text-align: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .footer-bottom p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .footer-bottom-links {
+            margin-top: 10px;
+        }
+
+        .footer-bottom-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+
+        .footer-bottom-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Tablet Responsive (769px - 1024px) */
+        @media (max-width: 1024px) {
+            header {
+                padding: 20px 30px;
+            }
+
+            .nav-links {
+                gap: 20px;
+            }
+
+            .nav-links a {
+                font-size: 15px;
+            }
+
+            .hero {
+                min-height: 60vh;
+                padding: 50px 30px;
+            }
+
+            .hero h2 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .hero-stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+
+            .footer-content {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+
+            footer {
+                padding: 50px 30px 0;
+            }
+        }
+
+        /* Mobile Responsive (0 - 768px) */
+        @media (max-width: 768px) {
+            header {
+                padding: 15px 20px;
+            }
+
+            .logo-text h1 {
+                font-size: 24px;
+            }
+
+            .logo i {
+                font-size: 28px;
+            }
+
+            nav {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 70%;
+                height: 100vh;
+                background-color: #FFFFFF;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 80px 30px;
+                box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+                transition: right 0.3s;
+                gap: 20px;
+            }
+
+            nav.active {
+                right: 0;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 20px;
+                width: 100%;
+            }
+
+            .header-cta {
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+                gap: 15px;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .hero {
+                min-height: 60vh;
+                padding: 40px 20px;
+            }
+
+            .hero h2 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .hero-stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+
+            .stat-item i {
+                font-size: 24px;
+            }
+
+            .stat-number {
+                font-size: 24px;
+            }
+
+            .stat-label {
+                font-size: 12px;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .primary-btn,
+            .secondary-btn {
+                width: 100%;
+                text-align: center;
+                padding: 15px 25px;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            footer {
+                padding: 40px 20px 0;
+            }
+
+            .footer-bottom-links {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .footer-bottom-links a {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="logo-text">
+                    <h1>Scholio</h1>
+                    <p>Nurturing Excellence, Building Futures</p>
+                </div>
+            </div>
+            
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#staff">Staff</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="header-cta">
+                    <a href="tel:+260123456789" class="phone-number">
+                        <i class="fas fa-phone"></i>
+                        +260 123 456 789
+                    </a>
+                    <a href="#enroll" class="cta-button">Enroll Today</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Where Young Minds Flourish</h2>
+                <p>Providing quality education from kindergarten through grade 12 with a focus on academic excellence, character development, and innovation.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Years of Excellence</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <span class="stat-number">1,200+</span>
+                        <span class="stat-label">Students Enrolled</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <span class="stat-number">15:1</span>
+                        <span class="stat-label">Student-Teacher Ratio</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-trophy"></i>
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">University Acceptance</span>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#tour" class="primary-btn">Schedule a Tour</a>
+                    <a href="#virtual" class="secondary-btn">Virtual Tour</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap" style="color: white;"></i>
+                    <div class="logo-text">
+                        <h1 style="font-size: 24px; color: white;">Scholio</h1>
+                    </div>
+                </div>
+                <p style="margin-top: 20px;">Empowering students to reach their full potential through innovative education, dedicated teaching, and a nurturing learning environment.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#programs">Academic Programs</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#calendar">Calendar & Events</a></li>
+                    <li><a href="#news">News & Updates</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Education Street, Lusaka, Zambia</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>+260 123 456 789</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>info@scholio.edu.zm</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <span>Mon - Fri: 8:00 AM - 4:00 PM</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Follow us on social media for the latest updates and news.</p>
+                <div class="social-links">
+                    <a href="#facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#youtube" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Scholio School. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#terms">Terms of Service</a>
+                <a href="#accessibility">Accessibility Statement</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navMenu');
+            nav.classList.toggle('active');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const nav = document.getElementById('navMenu');
+            const hamburger = document.querySelector('.hamburger');
+            const isClickInside = nav.contains(event.target) || hamburger.contains(event.target);
+            
+            if (!isClickInside && nav.classList.contains('active')) {
+                nav.classList.remove('active');
+            }
+        });
+
+        // Close menu when window is resized to desktop
+        window.addEventListener('resize', function() {
+            const nav = document.getElementById('navMenu');
+            if (window.innerWidth > 768) {
+                nav.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
+

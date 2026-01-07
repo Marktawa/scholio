@@ -1,0 +1,1955 @@
+<!-- Insert this code AFTER the Services section and BEFORE the Footer section -->
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <!-- Section Header -->
+            <div class="about-header">
+                <h2 class="about-title">About Scholio</h2>
+                <p class="about-subtitle">Nurturing Excellence, Building Futures for Over 25 Years</p>
+            </div>
+
+            <!-- Subsection 1: Our History -->
+            <div class="history-section">
+                <div class="history-content">
+                    <h3 class="subsection-title">Our History</h3>
+                    <div class="history-wrapper">
+                        <div class="history-text">
+                            <p>Founded in 1999, Scholio began with a simple yet powerful vision: to create an educational institution that would transform young minds and build the leaders of tomorrow. What started as a small school with just 50 students has grown into Lusaka's premier educational institution.</p>
+                            
+                            <p>Our journey has been marked by significant milestones: expanding our campus in 2005, introducing advanced placement programs in 2010, and achieving national recognition for academic excellence in 2018. Today, we proudly serve over 1,200 students from diverse backgrounds.</p>
+                            
+                            <p>Throughout our growth, we've remained true to our founding principles: academic rigor, character development, and a commitment to holistic education. Our alumni, now leaders in various fields, stand as testament to the lasting impact of a Scholio education.</p>
+                            
+                            <div class="history-stats">
+                                <div class="history-stat">
+                                    <span class="stat-number">1999</span>
+                                    <span class="stat-label">Year Founded</span>
+                                </div>
+                                <div class="history-stat">
+                                    <span class="stat-number">50 → 1,200+</span>
+                                    <span class="stat-label">Student Growth</span>
+                                </div>
+                                <div class="history-stat">
+                                    <span class="stat-number">3 → 12</span>
+                                    <span class="stat-label">Grades Offered</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="history-image">
+                            <img src="https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Scholio School Campus - Historical Photo" class="history-img">
+                            <div class="image-caption">Our original campus building in 1999</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subsection 2: Mission & Vision -->
+            <div class="mission-vision-section">
+                <div class="mission-vision-wrapper">
+                    <div class="mission-box">
+                        <div class="mission-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3 class="mission-vision-title">Our Mission</h3>
+                        <p class="mission-vision-text">To provide exceptional education that empowers students to become confident, creative, and compassionate leaders in a global society.</p>
+                    </div>
+                    
+                    <div class="vision-box">
+                        <div class="vision-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3 class="mission-vision-title">Our Vision</h3>
+                        <p class="mission-vision-text">To be the premier educational institution in Zambia, recognized for academic excellence, innovation, and character development.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subsection 3: Core Values -->
+            <div class="values-section">
+                <h3 class="subsection-title centered">Our Core Values</h3>
+                <p class="values-subtitle">The principles that guide everything we do at Scholio</p>
+                
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4 class="value-title">Excellence</h4>
+                        <p class="value-description">We strive for the highest standards in academics, character, and personal development in every aspect of school life.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 class="value-title">Integrity</h4>
+                        <p class="value-description">We foster honesty, ethical behavior, and moral courage in all our interactions and decisions.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4 class="value-title">Innovation</h4>
+                        <p class="value-description">We embrace creativity, adaptability, and forward-thinking approaches to education and problem-solving.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4 class="value-title">Respect</h4>
+                        <p class="value-description">We value diversity, practice empathy, and cultivate an inclusive environment where everyone feels valued.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4 class="value-title">Community</h4>
+                        <p class="value-description">We build strong partnerships between students, parents, staff, and the wider community for mutual growth.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4 class="value-title">Responsibility</h4>
+                        <p class="value-description">We encourage accountability, environmental stewardship, and positive contribution to society.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subsection 4: Accreditations -->
+            <div class="accreditations-section">
+                <h3 class="subsection-title centered">Accreditations & Affiliations</h3>
+                <p class="accreditations-subtitle">Recognized for excellence by leading educational authorities</p>
+                
+                <div class="accreditations-grid">
+                    <div class="accreditation-item">
+                        <div class="accreditation-logo">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h4 class="accreditation-title">Ministry of Education</h4>
+                        <p class="accreditation-text">Fully certified by the Zambian Ministry of Education</p>
+                    </div>
+                    
+                    <div class="accreditation-item">
+                        <div class="accreditation-logo">
+                            <i class="fas fa-globe-africa"></i>
+                        </div>
+                        <h4 class="accreditation-title">Cambridge International</h4>
+                        <p class="accreditation-text">Cambridge Assessment International Education Centre</p>
+                    </div>
+                    
+                    <div class="accreditation-item">
+                        <div class="accreditation-logo">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4 class="accreditation-title">Zambia Association of Independent Schools</h4>
+                        <p class="accreditation-text">Active member since 2001</p>
+                    </div>
+                    
+                    <div class="accreditation-item">
+                        <div class="accreditation-logo">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h4 class="accreditation-title">National Excellence Award</h4>
+                        <p class="accreditation-text">Recipient of 2023 National Educational Excellence Award</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subsection 5: Campus Facilities -->
+            <div class="facilities-section">
+                <h3 class="subsection-title">Campus Facilities</h3>
+                <p class="facilities-subtitle">State-of-the-art learning environments designed for excellence</p>
+                
+                <div class="facilities-grid">
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern Classroom">
+                            <div class="facility-overlay">
+                                <p>Equipped with smart boards, ergonomic furniture, and optimal lighting for effective learning</p>
+                            </div>
+                        </div>
+                        <h4 class="facility-name">Modern Classrooms</h4>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Science Laboratory">
+                            <div class="facility-overlay">
+                                <p>Fully-equipped labs for Physics, Chemistry, and Biology with latest equipment and safety features</p>
+                            </div>
+                        </div>
+                        <h4 class="facility-name">Science Laboratories</h4>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sports Facilities">
+                            <div class="facility-overlay">
+                                <p>Football field, basketball courts, swimming pool, and indoor gymnasium for comprehensive sports education</p>
+                            </div>
+                        </div>
+                        <h4 class="facility-name">Sports Facilities</h4>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Library">
+                            <div class="facility-overlay">
+                                <p>Extensive collection of books, digital resources, quiet study zones, and research facilities</p>
+                            </div>
+                        </div>
+                        <h4 class="facility-name">Library & Resource Center</h4>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Arts Studio">
+                            <div class="facility-overlay">
+                                <p>Dedicated spaces for visual arts, music rooms with instruments, and drama studios for creative expression</p>
+                            </div>
+                        </div>
+                        <h4 class="facility-name">Arts & Music Studios</h4>
+                    </div>
+                    
+                    <div class="facility-card">
+                        <div class="facility-image">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Computer Lab">
+                            <div class="facility-overlay">
+                                <p>Modern computer labs with latest technology, coding stations, and STEM learning resources</p>
+                            </div>
+                        </div>
+                        <h4 class="facility-name">Computer & Tech Labs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this CSS to the existing style section -->
+    <style>
+        /* About Us Section Styles */
+        .about-section {
+            padding: 80px 40px;
+            background-color: #FFFFFF;
+        }
+
+        .about-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Section Header */
+        .about-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .about-title {
+            font-size: 36px;
+            color: #1E3A8A;
+            font-weight: 700;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .about-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: #1E3A8A;
+            border-radius: 2px;
+        }
+
+        .about-subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-top: 25px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        /* Subsection Styles */
+        .subsection-title {
+            font-size: 32px;
+            color: #1E3A8A;
+            font-weight: 700;
+            margin-bottom: 25px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .subsection-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background-color: #1E3A8A;
+            border-radius: 2px;
+        }
+
+        .subsection-title.centered {
+            text-align: center;
+        }
+
+        .subsection-title.centered::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* History Subsection */
+        .history-section {
+            margin-bottom: 80px;
+        }
+
+        .history-wrapper {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .history-text p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        .history-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #E5E7EB;
+        }
+
+        .history-stat {
+            text-align: center;
+            padding: 20px 15px;
+            background-color: #F8FAFC;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .history-stat:hover {
+            transform: translateY(-5px);
+            background-color: #F0F4F8;
+        }
+
+        .stat-number {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1E3A8A;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .history-image {
+            position: relative;
+        }
+
+        .history-img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .image-caption {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            right: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #FFFFFF;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        /* Mission & Vision Subsection */
+        .mission-vision-section {
+            background-color: #F8FAFC;
+            padding: 60px 40px;
+            border-radius: 15px;
+            margin-bottom: 80px;
+        }
+
+        .mission-vision-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .mission-box {
+            background-color: #1E3A8A;
+            color: #FFFFFF;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .vision-box {
+            background-color: #FFFFFF;
+            color: #000000;
+            padding: 40px;
+            border-radius: 10px;
+            border: 2px solid #E5E7EB;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .mission-box:hover,
+        .vision-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .mission-icon,
+        .vision-icon {
+            width: 70px;
+            height: 70px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+        }
+
+        .vision-icon {
+            background-color: rgba(30, 58, 138, 0.1);
+        }
+
+        .mission-icon i,
+        .vision-icon i {
+            font-size: 30px;
+            color: #FFFFFF;
+        }
+
+        .vision-icon i {
+            color: #1E3A8A;
+        }
+
+        .mission-vision-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .mission-vision-text {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        /* Values Subsection */
+        .values-section {
+            margin-bottom: 80px;
+        }
+
+        .values-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 50px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .value-card {
+            background-color: #FFFFFF;
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #E5E7EB;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: #1E3A8A;
+        }
+
+        .value-icon {
+            width: 70px;
+            height: 70px;
+            background-color: rgba(30, 58, 138, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+        }
+
+        .value-icon i {
+            font-size: 28px;
+            color: #1E3A8A;
+        }
+
+        .value-title {
+            font-size: 20px;
+            color: #000000;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .value-description {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Accreditations Subsection */
+        .accreditations-section {
+            background-color: #F8FAFC;
+            padding: 60px 40px;
+            border-radius: 15px;
+            margin-bottom: 80px;
+        }
+
+        .accreditations-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 50px;
+        }
+
+        .accreditations-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .accreditation-item {
+            background-color: #FFFFFF;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid #E5E7EB;
+        }
+
+        .accreditation-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: #1E3A8A;
+        }
+
+        .accreditation-logo {
+            width: 80px;
+            height: 80px;
+            background-color: #F8FAFC;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            color: #1E3A8A;
+        }
+
+        .accreditation-logo i {
+            font-size: 32px;
+        }
+
+        .accreditation-title {
+            font-size: 18px;
+            color: #000000;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .accreditation-text {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Facilities Subsection */
+        .facilities-section {
+            margin-bottom: 60px;
+        }
+
+        .facilities-subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 50px;
+            max-width: 700px;
+        }
+
+        .facilities-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .facility-card {
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .facility-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .facility-image {
+            position: relative;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .facility-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .facility-card:hover .facility-image img {
+            transform: scale(1.05);
+        }
+
+        .facility-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(30, 58, 138, 0.9);
+            color: #FFFFFF;
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            text-align: center;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .facility-card:hover .facility-overlay {
+            opacity: 1;
+        }
+
+        .facility-name {
+            font-size: 20px;
+            color: #000000;
+            font-weight: 700;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Tablet Responsive (769px - 1024px) */
+        @media (max-width: 1024px) {
+            .about-section {
+                padding: 60px 30px;
+            }
+
+            .about-header {
+                margin-bottom: 60px;
+            }
+
+            .about-title {
+                font-size: 32px;
+            }
+
+            .about-subtitle {
+                font-size: 17px;
+            }
+
+            .history-wrapper {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .history-stats {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+
+            .mission-vision-wrapper {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .values-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+
+            .accreditations-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+
+            .facilities-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+
+            .subsection-title {
+                font-size: 28px;
+            }
+
+            .mission-vision-section,
+            .accreditations-section {
+                padding: 50px 30px;
+            }
+        }
+
+        /* Mobile Responsive (0 - 768px) */
+        @media (max-width: 768px) {
+            .about-section {
+                padding: 40px 20px;
+            }
+
+            .about-title {
+                font-size: 28px;
+            }
+
+            .about-subtitle {
+                font-size: 16px;
+                margin-top: 20px;
+            }
+
+            .history-section,
+            .values-section,
+            .mission-vision-section,
+            .accreditations-section,
+            .facilities-section {
+                margin-bottom: 60px;
+            }
+
+            .history-stats {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .accreditations-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .facilities-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .subsection-title {
+                font-size: 26px;
+            }
+
+            .mission-vision-section,
+            .accreditations-section {
+                padding: 40px 20px;
+            }
+
+            .mission-box,
+            .vision-box {
+                padding: 30px 20px;
+            }
+
+            .history-img {
+                height: 300px;
+            }
+
+            .facility-image {
+                height: 200px;
+            }
+        }
+    </style>
+
+
+<!-- Insert this code AFTER the Welcome section and BEFORE the Footer section -->
+
+    <!-- Our Services Section -->
+    <section class="services-section" id="services">
+        <div class="services-container">
+            <div class="services-header">
+                <h2 class="services-title">Our Services</h2>
+                <p class="services-subtitle">Comprehensive educational services designed to support every child's journey</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1: Academic Programs -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="service-title">Academic Programs</h3>
+                    <p class="service-description">
+                        Comprehensive curriculum from Early Childhood Education through Secondary School, including Advanced Placement and IGCSE programs. Our structured approach ensures academic excellence at every level.
+                    </p>
+                    <a href="#programs" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 2: Extracurricular Activities -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3 class="service-title">Extracurricular Activities</h3>
+                    <p class="service-description">
+                        Sports, arts, music, and diverse clubs including football, basketball, drama, choir, robotics, and debate. We believe in developing well-rounded individuals beyond the classroom.
+                    </p>
+                    <a href="#activities" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 3: Special Education & Support -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3 class="service-title">Special Education & Support</h3>
+                    <p class="service-description">
+                        Comprehensive learning support services, gifted programs, counseling, and special needs accommodations. Every student receives personalized attention to thrive.
+                    </p>
+                    <a href="#support" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 4: Technology Integration -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">Technology Integration</h3>
+                    <p class="service-description">
+                        State-of-the-art computer labs, coding classes, digital literacy programs, and STEM/STEAM education. We prepare students for the digital future with cutting-edge resources.
+                    </p>
+                    <a href="#technology" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 5: Library & Resource Center -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 class="service-title">Library & Resource Center</h3>
+                    <p class="service-description">
+                        Extensive book collection, modern research facilities, reading programs, and quiet study spaces. Our library fosters a love for reading and independent learning.
+                    </p>
+                    <a href="#library" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 6: School Transportation -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <h3 class="service-title">School Transportation</h3>
+                    <p class="service-description">
+                        Safe, reliable bus service with multiple routes across Lusaka. Supervised boarding and alighting ensure your child's safety throughout their journey.
+                    </p>
+                    <a href="#transportation" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 7: Meals & Nutrition -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="service-title">Meals & Nutrition</h3>
+                    <p class="service-description">
+                        Balanced meal programs, cafeteria services, dietary accommodations, and nutritionist-approved menus. We ensure students have the energy and focus for optimal learning.
+                    </p>
+                    <a href="#nutrition" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 8: After-School Care -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="service-title">After-School Care</h3>
+                    <p class="service-description">
+                        Extended day programs with homework assistance, enrichment activities, and safe supervision. Perfect for working parents needing reliable after-school care.
+                    </p>
+                    <a href="#afterschool" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this CSS to the existing style section -->
+    <style>
+        /* Services Section Styles */
+        .services-section {
+            background-color: #F8FAFC;
+            padding: 80px 40px;
+        }
+
+        .services-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .services-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .services-title {
+            font-size: 36px;
+            color: #1E3A8A;
+            font-weight: 700;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .services-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: #1E3A8A;
+            border-radius: 2px;
+        }
+
+        .services-subtitle {
+            font-size: 18px;
+            color: #666;
+            max-width: 700px;
+            margin: 25px auto 0;
+            line-height: 1.6;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background-color: #1E3A8A;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+            transform-origin: left;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background-color: rgba(30, 58, 138, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .service-icon i {
+            font-size: 32px;
+            color: #1E3A8A;
+        }
+
+        .service-title {
+            font-size: 20px;
+            color: #000000;
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .service-description {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .learn-more {
+            color: #1E3A8A;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            margin-top: auto;
+        }
+
+        .learn-more i {
+            font-size: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .learn-more:hover {
+            color: #152C5B;
+        }
+
+        .learn-more:hover i {
+            transform: translateX(5px);
+        }
+
+        /* Tablet Responsive (769px - 1024px) */
+        @media (max-width: 1024px) {
+            .services-section {
+                padding: 60px 30px;
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+
+            .services-title {
+                font-size: 32px;
+            }
+
+            .services-subtitle {
+                font-size: 17px;
+                padding: 0 20px;
+            }
+
+            .service-card {
+                padding: 25px;
+            }
+
+            .service-icon {
+                width: 70px;
+                height: 70px;
+                margin-bottom: 20px;
+            }
+
+            .service-icon i {
+                font-size: 28px;
+            }
+        }
+
+        /* Mobile Responsive (0 - 768px) */
+        @media (max-width: 768px) {
+            .services-section {
+                padding: 40px 20px;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .services-title {
+                font-size: 28px;
+            }
+
+            .services-subtitle {
+                font-size: 16px;
+                padding: 0;
+                margin-top: 15px;
+            }
+
+            .service-card {
+                padding: 20px;
+            }
+
+            .service-icon {
+                width: 60px;
+                height: 60px;
+                margin-bottom: 20px;
+            }
+
+            .service-icon i {
+                font-size: 24px;
+            }
+
+            .service-title {
+                font-size: 19px;
+            }
+
+            .service-description {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+<!-- Insert this code AFTER the Hero section and BEFORE the Footer section -->
+
+    <!-- Welcome Section (Principal's Message) -->
+    <section class="welcome-section" id="about">
+        <div class="welcome-container">
+            <h2 class="section-title">A Message from Our Principal</h2>
+            
+            <div class="welcome-content">
+                <div class="principal-photo">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dr. John Mwamba, Principal of Scholio School" class="principal-img">
+                    <div class="principal-info">
+                        <h3>Dr. John Mwamba</h3>
+                        <p class="principal-title">Principal</p>
+                        <p class="principal-credentials">Ph.D. in Education Leadership</p>
+                    </div>
+                </div>
+                
+                <div class="message-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    
+                    <div class="message-text">
+                        <p>Welcome to Scholio! As Principal, it is my privilege to lead a community of dedicated educators, enthusiastic learners, and supportive families who share a common goal: nurturing the next generation of leaders, thinkers, and compassionate citizens.</p>
+                        
+                        <p>At Scholio, we believe that education extends far beyond textbooks and classrooms. Our philosophy centers on developing the whole child—academically, socially, emotionally, and ethically. We create an environment where curiosity is celebrated, challenges are embraced as learning opportunities, and every student feels valued and supported.</p>
+                        
+                        <p>Our vision is to cultivate not just academic achievers, but well-rounded individuals who will contribute positively to society. What sets Scholio apart is our commitment to personalized learning paths, innovative teaching methodologies, and our exceptional 15:1 student-teacher ratio that ensures every child receives the attention they deserve.</p>
+                        
+                        <p>As an educator with over 20 years of experience, my passion lies in witnessing the transformative power of quality education. I invite you to visit our campus, meet our extraordinary staff, and experience firsthand the vibrant learning community we've built together.</p>
+                        
+                        <p>I look forward to welcoming you to our Scholio family.</p>
+                        
+                        <div class="signature">
+                            <p>Warmly,</p>
+                            <img src="https://i.ibb.co/7yX0SqN/signature.png" alt="Dr. John Mwamba's Signature" class="signature-img">
+                            <p class="signature-name">Dr. John Mwamba</p>
+                        </div>
+                    </div>
+                    
+                    <div class="message-cta">
+                        <a href="#tour" class="primary-btn">Schedule a Campus Visit</a>
+                        <a href="tel:+260123456789" class="secondary-btn">Call Our Office</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this CSS to the existing style section -->
+    <style>
+        /* Welcome Section Styles */
+        .welcome-section {
+            background-color: #FFFFFF;
+            padding: 80px 40px;
+        }
+
+        .welcome-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            color: #1E3A8A;
+            margin-bottom: 50px;
+            font-weight: 700;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: #1E3A8A;
+            border-radius: 2px;
+        }
+
+        .welcome-content {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            gap: 60px;
+            align-items: center;
+            background: #FFFFFF;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            padding: 50px;
+        }
+
+        .principal-photo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .principal-img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+            margin-bottom: 25px;
+            object-fit: cover;
+            aspect-ratio: 4/5;
+        }
+
+        .principal-info {
+            text-align: center;
+        }
+
+        .principal-info h3 {
+            font-size: 24px;
+            color: #000000;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .principal-title {
+            font-size: 18px;
+            color: #1E3A8A;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .principal-credentials {
+            font-size: 16px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .message-content {
+            position: relative;
+        }
+
+        .quote-icon {
+            position: absolute;
+            top: -20px;
+            left: -15px;
+            font-size: 60px;
+            color: rgba(30, 58, 138, 0.1);
+            z-index: 1;
+        }
+
+        .message-text {
+            position: relative;
+            z-index: 2;
+        }
+
+        .message-text p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        .signature {
+            margin-top: 40px;
+            text-align: right;
+        }
+
+        .signature p {
+            margin-bottom: 5px;
+            color: #000000;
+        }
+
+        .signature-img {
+            height: 50px;
+            margin: 10px 0;
+            opacity: 0.9;
+        }
+
+        .signature-name {
+            font-weight: 700;
+            color: #1E3A8A !important;
+        }
+
+        .message-cta {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .message-cta .primary-btn,
+        .message-cta .secondary-btn {
+            padding: 12px 30px;
+            font-size: 16px;
+        }
+
+        .message-cta .secondary-btn {
+            background-color: transparent;
+            color: #1E3A8A;
+            border: 2px solid #1E3A8A;
+        }
+
+        /* Tablet Responsive (769px - 1024px) */
+        @media (max-width: 1024px) {
+            .welcome-section {
+                padding: 60px 30px;
+            }
+
+            .welcome-content {
+                grid-template-columns: 35% 65%;
+                gap: 40px;
+                padding: 40px;
+            }
+
+            .section-title {
+                font-size: 32px;
+                margin-bottom: 40px;
+            }
+
+            .principal-img {
+                max-width: 350px;
+            }
+
+            .principal-info h3 {
+                font-size: 22px;
+            }
+
+            .message-text p {
+                font-size: 17px;
+            }
+        }
+
+        /* Mobile Responsive (0 - 768px) */
+        @media (max-width: 768px) {
+            .welcome-section {
+                padding: 40px 20px;
+            }
+
+            .welcome-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                padding: 30px 25px;
+            }
+
+            .section-title {
+                font-size: 28px;
+                margin-bottom: 30px;
+            }
+
+            .principal-img {
+                max-width: 300px;
+                margin: 0 auto 20px;
+            }
+
+            .principal-info h3 {
+                font-size: 22px;
+            }
+
+            .principal-title {
+                font-size: 17px;
+            }
+
+            .quote-icon {
+                top: -15px;
+                left: -5px;
+                font-size: 50px;
+            }
+
+            .message-text p {
+                font-size: 16px;
+                line-height: 1.7;
+            }
+
+            .signature {
+                margin-top: 30px;
+            }
+
+            .message-cta {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .message-cta .primary-btn,
+            .message-cta .secondary-btn {
+                width: 100%;
+                text-align: center;
+                padding: 15px 25px;
+            }
+        }
+    </style>
+
+    ---
+
+    <!-- Insert this code AFTER the About Us section and BEFORE the Footer section -->
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section" id="why-choose">
+        <div class="why-choose-container">
+            <div class="why-choose-header">
+                <h2 class="why-choose-title">Why Choose Scholio?</h2>
+                <p class="why-choose-subtitle">Discover what sets us apart as Zambia's premier educational institution</p>
+            </div>
+
+            <div class="reasons-grid">
+                <!-- Reason 1: Academic Excellence -->
+                <div class="reason-card">
+                    <div class="reason-number">01</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Academic Excellence</h3>
+                        <p class="reason-description">
+                            Proven track record of outstanding examination results with a rigorous, internationally-aligned curriculum. Our students consistently exceed national averages.
+                        </p>
+                        <div class="reason-stat">
+                            <span class="stat-value">95%</span>
+                            <span class="stat-label">University Acceptance Rate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reason 2: Experienced & Caring Faculty -->
+                <div class="reason-card">
+                    <div class="reason-number">02</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Experienced & Caring Faculty</h3>
+                        <p class="reason-description">
+                            Highly qualified teachers with advanced degrees and ongoing professional development. Our low student-teacher ratio ensures personalized attention.
+                        </p>
+                        <div class="reason-stat">
+                            <span class="stat-value">15:1</span>
+                            <span class="stat-label">Student-Teacher Ratio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reason 3: Holistic Education Approach -->
+                <div class="reason-card">
+                    <div class="reason-number">03</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Holistic Education Approach</h3>
+                        <p class="reason-description">
+                            Focus on academic, social, emotional, and physical development with character education integrated into every aspect of learning.
+                        </p>
+                        <div class="reason-stat">
+                            <span class="stat-value">50+</span>
+                            <span class="stat-label">Student Leadership Positions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reason 4: Modern Facilities & Resources -->
+                <div class="reason-card">
+                    <div class="reason-number">04</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Modern Facilities & Resources</h3>
+                        <p class="reason-description">
+                            State-of-the-art classrooms, laboratories, and technology-enabled learning environments. Well-stocked library with extensive digital resources.
+                        </p>
+                        <div class="reason-stat">
+                            <span class="stat-value">24/7</span>
+                            <span class="stat-label">Resource Access</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reason 5: Safe & Nurturing Environment -->
+                <div class="reason-card">
+                    <div class="reason-number">05</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Safe & Nurturing Environment</h3>
+                        <p class="reason-description">
+                            Secure campus with 24/7 security, anti-bullying policies, and supportive counseling services. We create an inclusive, welcoming community.
+                        </p>
+                        <div class="reason-stat">
+                            <span class="stat-value">100%</span>
+                            <span class="stat-label">Parent Satisfaction on Safety</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reason 6: Strong Parent-School Partnership -->
+                <div class="reason-card">
+                    <div class="reason-number">06</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Strong Parent-School Partnership</h3>
+                        <p class="reason-description">
+                            Regular communication, parent involvement opportunities, and an active Parent-Teacher Association. We believe education is a collaborative effort.
+                        </p>
+                        <div class="reason-stat">
+                            <span class="stat-value">98%</span>
+                            <span class="stat-label">Parent Participation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reason 7: Diverse Extracurricular Programs -->
+                <div class="reason-card">
+                    <div class="reason-number">07</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Diverse Extracurricular Programs</h3>
+                        <p class="reason-description">
+                            Sports, arts, music, drama, clubs, field trips, and service learning. We develop well-rounded individuals beyond academics.
+                        </p>
+                        <div class="reason-stat">
+                            <span class="stat-value">30+</span>
+                            <span class="stat-label">Clubs & Activities</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reason 8: Proven Results & Alumni Success -->
+                <div class="reason-card">
+                    <div class="reason-number">08</div>
+                    <div class="reason-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Proven Results & Alumni Success</h3>
+                        <p class="reason-description">
+                            Graduates attending top universities worldwide and succeeding in diverse careers. Join our strong network of accomplished alumni.
+                        </p>
+                        <div class="reason-stat">
+                            <span class="stat-value">25+</span>
+                            <span class="stat-label">Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="why-choose-cta">
+                <div class="cta-content">
+                    <h3 class="cta-title">Ready to Join Our Community?</h3>
+                    <p class="cta-text">Experience the Scholio difference firsthand. Schedule a campus tour today and see why we're the right choice for your child's education.</p>
+                    <div class="cta-buttons">
+                        <a href="#tour" class="primary-btn">Schedule a Campus Tour</a>
+                        <a href="#contact" class="secondary-btn">Contact Admissions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this CSS to the existing style section -->
+    <style>
+        /* Why Choose Us Section Styles */
+        .why-choose-section {
+            background-color: #F8FAFC;
+            padding: 80px 40px;
+        }
+
+        .why-choose-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Section Header */
+        .why-choose-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .why-choose-title {
+            font-size: 36px;
+            color: #1E3A8A;
+            font-weight: 700;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .why-choose-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: #1E3A8A;
+            border-radius: 2px;
+        }
+
+        .why-choose-subtitle {
+            font-size: 18px;
+            color: #666;
+            max-width: 700px;
+            margin: 25px auto 0;
+            line-height: 1.6;
+        }
+
+        /* Reasons Grid */
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+
+        .reason-card {
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            padding: 40px;
+            display: flex;
+            align-items: flex-start;
+            gap: 25px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #1E3A8A;
+        }
+
+        .reason-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .reason-number {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 60px;
+            font-weight: 800;
+            color: rgba(30, 58, 138, 0.05);
+            line-height: 1;
+            z-index: 1;
+        }
+
+        .reason-icon {
+            flex-shrink: 0;
+            width: 80px;
+            height: 80px;
+            background-color: rgba(30, 58, 138, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .reason-icon i {
+            font-size: 32px;
+            color: #1E3A8A;
+        }
+
+        .reason-content {
+            flex: 1;
+            position: relative;
+            z-index: 2;
+        }
+
+        .reason-title {
+            font-size: 22px;
+            color: #1E3A8A;
+            font-weight: 700;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .reason-description {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .reason-stat {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #F0F4F8;
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid rgba(30, 58, 138, 0.1);
+        }
+
+        .stat-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1E3A8A;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+            font-weight: 600;
+        }
+
+        /* Call to Action */
+        .why-choose-cta {
+            background: linear-gradient(135deg, #1E3A8A 0%, #152C5B 100%);
+            border-radius: 15px;
+            padding: 60px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .cta-content {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .cta-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .cta-text {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 35px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-buttons .primary-btn {
+            background-color: #FFFFFF;
+            color: #1E3A8A;
+            font-weight: 600;
+            padding: 15px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid #FFFFFF;
+        }
+
+        .cta-buttons .primary-btn:hover {
+            background-color: transparent;
+            color: #FFFFFF;
+        }
+
+        .cta-buttons .secondary-btn {
+            background-color: transparent;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            font-weight: 600;
+            padding: 15px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .cta-buttons .secondary-btn:hover {
+            background-color: #FFFFFF;
+            color: #1E3A8A;
+        }
+
+        /* Tablet Responsive (769px - 1024px) */
+        @media (max-width: 1024px) {
+            .why-choose-section {
+                padding: 60px 30px;
+            }
+
+            .why-choose-title {
+                font-size: 32px;
+            }
+
+            .why-choose-subtitle {
+                font-size: 17px;
+            }
+
+            .reasons-grid {
+                gap: 25px;
+            }
+
+            .reason-card {
+                padding: 30px;
+                gap: 20px;
+            }
+
+            .reason-icon {
+                width: 70px;
+                height: 70px;
+            }
+
+            .reason-icon i {
+                font-size: 28px;
+            }
+
+            .reason-title {
+                font-size: 20px;
+            }
+
+            .reason-description {
+                font-size: 15px;
+            }
+
+            .why-choose-cta {
+                padding: 50px 40px;
+            }
+
+            .cta-title {
+                font-size: 28px;
+            }
+        }
+
+        /* Mobile Responsive (0 - 768px) */
+        @media (max-width: 768px) {
+            .why-choose-section {
+                padding: 40px 20px;
+            }
+
+            .why-choose-header {
+                margin-bottom: 40px;
+            }
+
+            .why-choose-title {
+                font-size: 28px;
+            }
+
+            .why-choose-subtitle {
+                font-size: 16px;
+                margin-top: 15px;
+            }
+
+            .reasons-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                margin-bottom: 60px;
+            }
+
+            .reason-card {
+                padding: 25px;
+                flex-direction: column;
+                gap: 20px;
+                align-items: flex-start;
+            }
+
+            .reason-number {
+                top: 15px;
+                right: 20px;
+                font-size: 50px;
+            }
+
+            .reason-icon {
+                width: 60px;
+                height: 60px;
+            }
+
+            .reason-icon i {
+                font-size: 24px;
+            }
+
+            .reason-title {
+                font-size: 20px;
+            }
+
+            .reason-description {
+                font-size: 15px;
+            }
+
+            .stat-value {
+                font-size: 18px;
+            }
+
+            .stat-label {
+                font-size: 13px;
+            }
+
+            .why-choose-cta {
+                padding: 40px 25px;
+            }
+
+            .cta-title {
+                font-size: 24px;
+            }
+
+            .cta-text {
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .cta-buttons .primary-btn,
+            .cta-buttons .secondary-btn {
+                width: 100%;
+                text-align: center;
+                padding: 15px 25px;
+            }
+        }
+    </style>
