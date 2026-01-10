@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholio - School Landing Page</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* CSS Variables & Reset */
+        :root {
+            --black: #000000;
+            --white: #ffffff;
+            --blue: #0056B3;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--white);
+            color: var(--black);
+            line-height: 1.5;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* HEADER STYLES */
+        header.main-header {
+            background-color: var(--white);
+            border-bottom: 2px solid var(--black);
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: var(--blue);
+            letter-spacing: -1px;
+        }
+
+        /* Middle Quick Links (Desktop) */
+        .quick-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .quick-links a {
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Menu Trigger */
+        .menu-trigger {
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 1px solid var(--black);
+            padding: 0.5rem 1rem;
+            background: var(--black);
+            color: var(--white);
+        }
+
+        /* Dropdown Menu */
+        .dropdown-menu {
+            display: none; /* Hidden by default */
+            position: absolute;
+            top: 70px; /* Height of header */
+            right: 0;
+            background-color: var(--black);
+            width: 250px;
+            padding: 1rem 0;
+        }
+
+        .dropdown-menu.active {
+            display: block;
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 1rem 2rem;
+            color: var(--white);
+            border-bottom: 1px solid #333;
+        }
+
+        .dropdown-menu a:last-child {
+            border-bottom: none;
+        }
+
+        /* HERO SECTION STYLES */
+        .hero-section {
+            height: 80vh;
+            width: 100%;
+            background-image: url('cover.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Dark Overlay */
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            color: var(--white);
+            max-width: 800px;
+            padding: 1rem;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: var(--blue);
+            color: var(--white);
+            font-weight: bold;
+            border: none;
+        }
+
+        /* FOOTER STYLES */
+        footer {
+            background-color: var(--black);
+            color: var(--white);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .footer-info p {
+            margin-bottom: 0.5rem;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .copyright {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #ccc;
+        }
+
+        /* RESPONSIVE BREAKPOINTS */
+
+        /* Tablet (768px and below) */
+        @media (max-width: 768px) {
+            .quick-links {
+                display: none; /* Hide middle links */
+            }
+            
+            .hero-title {
+                font-size: 2.5rem;
+            }
+        }
+
+        /* Mobile (480px and below) */
+        @media (max-width: 480px) {
+            header.main-header {
+                padding: 0 1rem;
+            }
+            
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+            
+            .menu-trigger {
+                padding: 0.5rem;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <!-- Left: Logo -->
+        <div class="logo">Scholio</div>
+
+        <!-- Middle: Quick Links (Hidden on Tablet/Mobile) -->
+        <nav class="quick-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <!-- Right: Menu Dropdown -->
+        <div class="menu-container">
+            <div class="menu-trigger" id="menuBtn">
+                MENU <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="dropdown-menu" id="dropdown">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">Principal's Message</a>
+                <a href="#">Reviews</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Excellence in Education</h1>
+            <p class="hero-subtitle">Empowering the next generation of leaders through knowledge and character.</p>
+            <a href="#" class="hero-btn">Explore Scholio</a>
+        </div>
+    </section>
+
+    <!-- Placeholder for other sections -->
+    <div style="padding: 4rem; text-align: center; color: #666; background: #f4f4f4;">
+        [Other Sections: Welcome, Services, About, Staff, Reviews, Contact]
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo" style="color: var(--white);">Scholio</div>
+            <div class="footer-info">
+                <p><i class="fa-solid fa-location-dot"></i> 123 Education Lane, Knowledge City</p>
+                <p><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</p>
+                <p><i class="fa-solid fa-envelope"></i> admissions@scholio.edu</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Scholio High School. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // Simple Toggle Logic
+        const menuBtn = document.getElementById('menuBtn');
+        const dropdown = document.getElementById('dropdown');
+
+        menuBtn.addEventListener('click', () => {
+            if (dropdown.classList.contains('active')) {
+                dropdown.classList.remove('active');
+            } else {
+                dropdown.classList.add('active');
+            }
+        });
+
+        // Close dropdown if clicking outside
+        document.addEventListener('click', (event) => {
+            if (!menuBtn.contains(event.target) && !dropdown.contains(event.target)) {
+                dropdown.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

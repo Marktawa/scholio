@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholio - Excellence in Education</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* --- RESET & VARIABLES --- */
+        :root {
+            --black: #000000;
+            --white: #ffffff;
+            --blue: #0056B3;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* Requested System Font Stack */
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--white);
+            color: var(--black);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        /* --- UTILITIES --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 3rem;
+            text-align: center;
+            border-bottom: 2px solid var(--blue);
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            position: relative; 
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--blue);
+            color: var(--white);
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+
+        /* --- HEADER --- */
+        header.main-header {
+            background-color: var(--white);
+            border-bottom: 2px solid var(--black);
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: var(--blue);
+            letter-spacing: -0.5px;
+        }
+
+        .quick-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .quick-links a {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .menu-trigger {
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 1px solid var(--black);
+            padding: 0.5rem 1rem;
+            background: var(--black);
+            color: var(--white);
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 70px;
+            right: 0;
+            background-color: var(--black);
+            width: 250px;
+            padding: 1rem 0;
+        }
+
+        .dropdown-menu.active {
+            display: block;
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 1rem 2rem;
+            color: var(--white);
+            border-bottom: 1px solid #333;
+        }
+
+        /* --- HERO --- */
+        .hero-section {
+            height: 90vh;
+            width: 100%;
+            /* FIXED IMAGE LINK */
+            background-image: url('cover.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            color: var(--white);
+            max-width: 800px;
+            padding: 1rem;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        /* --- WELCOME SECTION --- */
+        .split-layout {
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+        }
+
+        .split-image {
+            flex: 1;
+            height: 400px;
+        }
+        
+        .split-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            border: 1px solid var(--black);
+        }
+
+        .split-text {
+            flex: 1;
+        }
+
+        .principal-name {
+            margin-top: 1rem;
+            font-weight: 700;
+            color: var(--blue);
+        }
+
+        /* --- SERVICES SECTION --- */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .service-card {
+            border: 1px solid var(--black);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .service-icon {
+            font-size: 2.5rem;
+            color: var(--blue);
+            margin-bottom: 1rem;
+        }
+
+        .service-title {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .service-desc {
+            font-size: 0.9rem;
+        }
+
+        /* --- REVIEWS SECTION --- */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .review-card {
+            background-color: var(--black);
+            color: var(--white);
+            padding: 2rem;
+        }
+
+        .review-quote {
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+
+        .review-author {
+            font-weight: 700;
+            color: var(--blue);
+        }
+
+        /* --- CONTACT SECTION --- */
+        .contact-layout {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+            border: 1px solid var(--black);
+            padding: 3rem;
+        }
+
+        .contact-col {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .contact-col h3 {
+            color: var(--blue);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .contact-col p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background-color: var(--black);
+            color: var(--white);
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .copyright {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #ccc;
+        }
+
+        /* --- RESPONSIVE BREAKPOINTS --- */
+        @media (max-width: 768px) {
+            .quick-links { display: none; }
+            .hero-title { font-size: 2.5rem; }
+            .split-layout { flex-direction: column; gap: 2rem; }
+            .split-image { width: 100%; height: auto; }
+            .services-grid { grid-template-columns: repeat(2, 1fr); }
+            .reviews-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 480px) {
+            header.main-header { padding: 0 1rem; }
+            .hero-title { font-size: 2rem; }
+            .services-grid { grid-template-columns: 1fr; }
+            .contact-layout { padding: 1.5rem; }
+            .section-title { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="logo">Scholio</div>
+
+        <nav class="quick-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="menu-container">
+            <div class="menu-trigger" id="menuBtn">
+                MENU <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="dropdown-menu" id="dropdown">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <a href="#welcome">Principal's Message</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Empowering Future Leaders</h1>
+            <p class="hero-subtitle">Providing a world-class education focused on academic excellence and character development.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- WELCOME SECTION -->
+    <section id="welcome" class="container">
+        <h2 class="section-title">Principal's Message</h2>
+        <div class="split-layout">
+            <div class="split-image">
+                <!-- FIXED IMAGE LINK (Principal) -->
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop" alt="Principal">
+            </div>
+            <div class="split-text">
+                <p>Welcome to Scholio. For over 20 years, we have been dedicated to fostering an environment where students can thrive intellectually, socially, and emotionally.</p>
+                <br>
+                <p>Our curriculum is designed to challenge students while providing the support they need to succeed. We believe that every child has a unique potential, and it is our privilege to help them discover it.</p>
+                <br>
+                <p>I invite you to explore our website and learn more about our vibrant community.</p>
+                <div class="principal-name">
+                    — Dr. Sarah Mitchell, Principal
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-book-open service-icon"></i>
+                <h3 class="service-title">Academics</h3>
+                <p class="service-desc">Rigorous curriculum covering STEM, Humanities, and Languages.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-basketball service-icon"></i>
+                <h3 class="service-title">Athletics</h3>
+                <p class="service-desc">State-of-the-art sports facilities and competitive teams.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-palette service-icon"></i>
+                <h3 class="service-title">Arts & Music</h3>
+                <p class="service-desc">Comprehensive programs in visual arts, theater, and music.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-bed service-icon"></i>
+                <h3 class="service-title">Boarding</h3>
+                <p class="service-desc">Safe and inclusive residential facilities for international students.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="split-layout">
+            <div class="split-text">
+                <h3 style="margin-bottom: 1rem;">Our History</h3>
+                <p>Founded in 2004, Scholio began with a single classroom and a vision. Today, we stand as a beacon of learning in the region.</p>
+                <br>
+                <h3 style="margin-bottom: 1rem;">Our Mission</h3>
+                <p>To cultivate a community of lifelong learners who lead with integrity, innovate with passion, and serve with purpose.</p>
+                <br>
+                <a href="#contact" class="btn">Visit Campus</a>
+            </div>
+            <div class="split-image">
+                <!-- FIXED IMAGE LINK (Campus) -->
+                <img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1000&auto=format&fit=crop" alt="School Campus">
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section id="reviews" class="container">
+        <h2 class="section-title">Reviews</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <p class="review-quote">"Scholio has transformed my son's approach to learning. The teachers are incredibly supportive."</p>
+                <p class="review-author">- Jane D. (Parent)</p>
+            </div>
+            <div class="review-card">
+                <p class="review-quote">"The facilities here are unmatched. I love the science labs and the football field."</p>
+                <p class="review-author">- Michael S. (Grade 11)</p>
+            </div>
+            <div class="review-card">
+                <p class="review-quote">"A wonderful community that truly cares about the well-being of every student."</p>
+                <p class="review-author">- Robert T. (Alumni)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-layout">
+            <div class="contact-col">
+                <h3><i class="fa-solid fa-location-dot"></i> Address</h3>
+                <p>123 Education Lane</p>
+                <p>Knowledge City, ST 90210</p>
+            </div>
+            <div class="contact-col">
+                <h3><i class="fa-solid fa-phone"></i> Phone</h3>
+                <p>Main Office: (555) 123-4567</p>
+                <p>Admissions: (555) 987-6543</p>
+            </div>
+            <div class="contact-col">
+                <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+                <p>info@scholio.edu</p>
+                <p>admissions@scholio.edu</p>
+            </div>
+            <div class="contact-col">
+                <h3><i class="fa-solid fa-clock"></i> Office Hours</h3>
+                <p>Mon - Fri: 8:00 AM - 4:00 PM</p>
+                <p>Sat - Sun: Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo" style="color: var(--white);">Scholio</div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Scholio High School. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const dropdown = document.getElementById('dropdown');
+
+        menuBtn.addEventListener('click', () => {
+            if (dropdown.classList.contains('active')) {
+                dropdown.classList.remove('active');
+            } else {
+                dropdown.classList.add('active');
+            }
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!menuBtn.contains(event.target) && !dropdown.contains(event.target)) {
+                dropdown.classList.remove('active');
+            }
+        });
+
+        dropdown.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                dropdown.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
